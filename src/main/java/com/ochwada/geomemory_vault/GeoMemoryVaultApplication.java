@@ -40,10 +40,13 @@ public class GeoMemoryVaultApplication {
 
         // List of expected keys to load from the .env file
         String[] envVars = {
+                "PORT",
+
                 "MONGODB_URI",
                 "MONGODB_DATABASE",
-                "PORT",
+
                 "JWT_SECRET",
+
                 "OPENWEATHER_API",
                 "OPENWEATHER_API_URL"
         };
