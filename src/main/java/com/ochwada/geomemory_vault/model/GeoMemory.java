@@ -1,6 +1,8 @@
 package com.ochwada.geomemory_vault.model;
 
 
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.Size;
 import lombok.*;
 import org.springframework.data.annotation.*;
 import org.springframework.data.mongodb.core.mapping.Document;
@@ -42,7 +44,10 @@ public class GeoMemory {
 
     /**
      * Title of the memory (e.g., "Climbed Mount Kenya")
+     * Must not be blank and must contain between 10 and 50 characters.
      */
+    @NotBlank(message = "Title is required")
+    @Size(min = 5, max = 50, message = "Should be between 10 and 40 charectors")
     private String title;
 
     /**
