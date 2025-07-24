@@ -31,3 +31,13 @@ build/
 
 ### VS Code ###
 .vscode/
+
+## -------- Author: Files and Directories --------
+# Directories
+.idea/
+.mvn/
+
+.env
+mvnw
+mvnw.cmd
+## -------- --------------------------- --------
