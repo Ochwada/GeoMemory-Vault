@@ -22,10 +22,11 @@ public class WeatherInfo {
     /**
      * A short weather description, e.g., "Clear sky", "Light rain", "Overcast clouds"
      */
-    private String summary;
+    private String description;
 
     /**
      * Temperature at the memory location and time (can include unit, e.g., "10°C")
      */
     private String temp;
+
 }

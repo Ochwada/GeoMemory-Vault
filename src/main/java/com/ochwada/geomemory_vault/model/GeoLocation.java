@@ -31,4 +31,5 @@ public class GeoLocation {
      * Must be in this order for MongoDB to interpret correctly.
      */
     private List<Double> coordinates; // [longitude, latitude]
+
 }

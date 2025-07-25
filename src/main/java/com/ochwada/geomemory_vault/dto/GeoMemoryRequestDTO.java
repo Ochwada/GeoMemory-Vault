@@ -33,4 +33,7 @@ public class GeoMemoryRequestDTO {
 
     // Optional: the client could also send a placeName (but usually derived by server)
     private String placeName;
+
+    private String country;
+
 }

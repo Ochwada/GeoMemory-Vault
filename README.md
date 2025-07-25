@@ -21,7 +21,8 @@ with potential frontend mapping integrations.
   },
   "weather": {
     "summary": "Clear sky",
-    "temp": "10°C"
+    "temp": "10°C",
+    ""
   },
   "createdAt": "2025-07-24T10:00:00Z"
 }
@@ -41,3 +42,5 @@ with potential frontend mapping integrations.
 | `dto`            | Contains **Data Transfer Objects**, used to structure API request/response bodies                               |
 | `mapper`         | Responsible for converting between DTOs and models (e.g., `UserMapper`)                                         |
 | `alias`          | Probably a helper or utility layer (in your case, `SecurityUser`) used to adapt Spring Security’s `UserDetails` |
+| `client`         | Contains **external API clients**, e.g., for calling OpenWeather, reverse geocoding, or other HTTP services     |
+

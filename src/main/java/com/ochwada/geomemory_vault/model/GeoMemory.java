@@ -62,6 +62,11 @@ public class GeoMemory {
     private String placeName;
 
     /**
+     * Human-readable country name derived from coordinates
+     */
+    private String country;
+
+    /**
      * Geospatial location (GeoJSON format with type "Point")
      */
     private GeoLocation location;

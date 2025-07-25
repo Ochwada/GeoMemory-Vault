@@ -30,6 +30,8 @@ public class GeoMemoryResponseDTO {
 
     private String placeName;
 
+    private String country;
+
     private List<Double> coordinates;
 
     private String summary;
